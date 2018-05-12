@@ -1,0 +1,568 @@
+Critical Facility  4.3 w/o u-235 enrichment
+c ccccccccccccccccccccccccccccccccccccc
+c  Fuel Rod 
+c ccccccccccccccccccccccccccccccccccccc
+c
+c  UO2 pellets
+c
+1  1    6.813709e-02
+        (-1 3 -2)
+        imp:n=1
+        u=1
+c
+c  aluminum stopple up
+c
+2  5    1.118600e-01
+        (-5 2 -4)
+        imp:n=1
+        u=1
+c
+c  aluminum stopple botton
+c
+3  5    1.118600e-01
+        (-5 -3)
+        imp:n=1
+        u=1
+c
+c Spacer Tube
+c 
+4  7    8.802220E-02
+        (4 -7 6) 
+        imp:n=1
+        u=1
+c
+c Gap 
+c
+5 2     -1.20492E-3
+        (5 -7  2 -4 ):   $ gap top 
+        (5 -7 -3    ):   $ gap botton
+        (3 -2  1 -7 ):   $ gap U02
+        (7 -9       )    $ gap    
+        imp:n=1
+        u=1
+c
+c Void 
+c
+6  0 
+        (-6 4) 
+        imp:n=1
+        u=1
+c
+c Cladding
+c
+7  3    8.655893e-02
+        (9 -10)
+        imp:n=1
+        u=1
+c
+c Water 
+c 
+8  4    1.00104E-01
+        (10)
+        imp:n=1
+        u=1
+c
+c ccccccccccccccccccccccccccccccccccccc
+c  Control-Rod  
+c ccccccccccccccccccccccccccccccccccccc
+c
+c Absorber
+c
+9    6  5.8233510e-02
+        (-13 12)
+        imp:n=1
+        u=2
+c
+c Gap 
+c
+10   2  -1.20492E-3
+        (13 -9 12) $ gap
+        imp:n=1
+        u=2
+c
+c Tip and Cladding
+c
+11   3  8.655893e-02
+        (9  -10  12):
+        (11 -12 -10)
+        imp:n=1
+        u=2
+c
+c Water 
+c 
+12  4   1.00104E-01 
+        ( 10    ):
+        (-10 -11)
+        imp:n=1
+        u=2
+c
+c ccccccccccccccccccccccccccccccccccccc
+c  Guide tube plus Control-Rod  
+c ccccccccccccccccccccccccccccccccccccc
+c
+c  Control-Rod region
+c
+13  0   (-14) 
+        fill=2 (0 0 0)
+        imp:n=1
+        u=3
+c
+c  Guide tube 
+c
+14  9   8.429047E-02
+        (14 -15)
+        imp:n=1
+        u=3
+c
+c Water 
+c 
+15  4   1.00104E-01
+        (15)
+        imp:n=1
+        u=3
+c
+c ccccccccccccccccccccccccccccccccccccc
+c  Safety-rod guide tube 
+c ccccccccccccccccccccccccccccccccccccc
+c
+c Water 
+c 
+16  4   1.00104E-01
+        (-14) 
+        imp:n=1
+        u=4
+c
+c  Guide tube 
+c
+17  9   8.429047E-02
+        (14 -15)
+        imp:n=1
+        u=4
+c
+c Water 
+c 
+18  4   1.00104E-01
+        (15)
+        imp:n=1
+        u=4
+c
+c ccccccccccccccccccccccccccccccccccccc
+c  Gd2O3 
+c ccccccccccccccccccccccccccccccccccccc
+c
+c Gd2O3
+c
+19  13  1.7167297e-02
+        (-9)
+        imp:n=1
+        u=5
+c
+c Cladding
+c
+20  3   8.655893e-02
+        (9 -10)
+        imp:n=1
+        u=5
+c
+c Water 
+c 
+21  4   1.00104E-01
+        (10)
+        imp:n=1
+        u=5
+c
+c ccccccccccccccccccccccccccccccccccccc
+c  Stainless Steel rod  
+c ccccccccccccccccccccccccccccccccccccc
+c
+c Steel
+c
+22  8   8.216686e-02
+        (-16)
+        imp:n=1
+        u=6
+c
+c Water 
+c 
+23  4   1.00104E-01
+        (16)
+        imp:n=1
+        u=6
+c
+c ccccccccccccccccccccccccccccccccccccc
+c  Thorium Rod 
+c ccccccccccccccccccccccccccccccccccccc
+c
+c  Thorium pellets
+c
+101  14   6.8055e-02
+        (-1 3 -2)
+        imp:n=1
+        u=9
+c
+c  aluminum stopple up
+c
+102  5    1.118600e-01
+        (-5 2 -4)
+        imp:n=1
+        u=9
+c
+c  aluminum stopple botton
+c
+103  5    1.118600e-01
+        (-5 -3)
+        imp:n=1
+        u=9
+c
+c Spacer Tube
+c 
+104  7    8.802220E-02
+        (4 -7 6) 
+        imp:n=1
+        u=9
+c
+c Gap 
+c
+105 2     -1.20492E-3
+        (5 -7  2 -4 ):   $ gap top 
+        (5 -7 -3    ):   $ gap botton
+        (3 -2  1 -7 ):   $ gap U02
+        (7 -9       )    $ gap    
+        imp:n=1
+        u=9
+c
+c Void 
+c
+106  0 
+        (-6 4) 
+        imp:n=1
+        u=9
+c
+c Cladding
+c
+107  3    8.655893e-02
+        (9 -10)
+        imp:n=1
+        u=9
+c
+c Water 
+c 
+108  4    1.00104E-01
+        (10)
+        imp:n=1
+        u=9
+c
+c ccccccccccccccccccccccccccccccccccccc
+c  Matrix plate  
+c ccccccccccccccccccccccccccccccccccccc
+c
+24     4   1.00104E-01 -17  18  -19  20 lat=1  fill=-15:14 -15:14 0:0 
+c      a b                                                     a b    
+c      a a a b c d e f g h i j k l m n o p q r s t u v w x u z z z
+c                                                   -------------> 
+       7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7  $ ^ 29    
+       7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7  $ | 28    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $ | 27    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $ | 26    
+       7 1 1 1 1 1 3 1 1 1 3 1 1 1 1 1 1 1 1 4 1 1 1 4 1 1 1 1 1 7  $ | 25    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $ | 24    
+       7 1 1 1 3 1 1 1 3 1 1 1 3 1 1 1 1 4 1 1 1 4 1 1 1 4 1 1 1 7  $ | 23    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   22    
+       7 1 1 1 1 1 3 1 1 1 3 1 1 1 1 1 1 1 1 4 1 1 1 4 1 1 1 1 1 7  $   21    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   20    
+       7 1 1 1 3 1 1 1 3 1 1 1 3 1 1 1 1 4 1 1 1 4 1 1 1 4 1 1 1 7  $   19    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   18    
+       7 1 1 1 1 1 3 1 1 1 3 1 1 1 1 1 1 1 1 4 1 1 1 4 1 1 1 1 1 7  $   17    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   16    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 9 9 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   15    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 9 9 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   14    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   13    
+       7 1 1 1 1 1 4 1 1 1 4 1 1 1 1 1 1 1 1 3 1 1 1 3 1 1 1 1 1 7  $   12    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   11    
+       7 1 1 1 4 1 1 1 4 1 1 1 4 1 1 1 1 3 1 1 1 3 1 1 1 3 1 1 1 7  $   10    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   09    
+       7 1 1 1 1 1 4 1 1 1 4 1 1 1 1 1 1 1 1 3 1 1 1 3 1 1 1 1 1 7  $   08    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   07    
+       7 1 1 1 4 1 1 1 4 1 1 1 4 1 1 1 1 3 1 1 1 3 1 1 1 3 1 1 1 7  $   06    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   05    
+       7 1 1 1 1 1 4 1 1 1 4 1 1 1 1 1 1 1 1 3 1 1 1 3 1 1 1 1 1 7  $   04    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   03    
+       7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7  $   02    
+       7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7  $   01     
+       7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7  $   00       
+       imp:n=1
+       u=7
+c
+c Lattice region 
+c
+25 0 
+       (22 -21 24 -23 26 -25) 
+       fill=7 (0.75 0.75 0)
+       imp:n=1
+       u=8
+c
+c bottom grid plate
+c
+26 12  8.666089e-02
+       (28 -27 30 -29 -26 31)
+       imp:n=1
+       u=8
+c
+c Water 
+c 
+28 4   1.00104E-01
+       (-31               ):
+       (31 -26  27        ):
+       (31 -26 -28        ):
+       (31 -26 -27 28 29  ):
+       (31 -26 -27 28 -30 ): 
+       (26 -25  21        ):
+       (26 -25 -22        ):
+       (26 -25 -21 22  23 ):
+       (26 -25 -21 22 -24 ):
+       (25                )
+       imp:n=1
+       u=8
+c
+c cccccccccccccccccccccccccc
+c
+c System 
+c 
+29     0  
+       (37 -38 -39) fill=8
+       imp:n=1
+c
+c Outside
+c
+999    0  
+       (39):
+       (-39 38):
+       (-39 -37)
+       imp:n=0
+c
+c ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ 
+c ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+c
+1    cz   0.42447   $  UO2 : OR
+2    pz  27.42    $ --| - (+) -> 54.84             
+3    pz -27.42    $ --|
+c
+4    pz  32.82     $   
+5    cz  0.4235    $  Al2O3 : OR
+c
+6    cz  0.365    $ Spacer Tube : IR
+7    cz  0.425    $ Spacer Tube : OR
+c
+9    cz  0.42873  $ Cladding : IR
+10   cz  0.49037  $ Cladding : OR
+c
+c
+11   pz  25.75   $
+12   pz  27.42   $
+13   cz  0.416   $ Ag-In-Cd : OR
+c
+14   cz  0.565   $ Guide Tube : IR
+15   cz  0.6     $ Guide Tube : OR
+c
+16   cz 0.475    $ Stainless Steel rod : OR 
+c
+17   px  0.75000 $ half pitch 
+18   px -0.75000 $ half pitch
+19   py  0.75000 $ half pitch
+20   py -0.75000 $ half pitch
+c
+21   px  22.5
+22   px -22.5  
+23   py  22.5
+24   py -22.5
+c
+25   pz  43.78 
+26   pz -36.52
+c
+27   px   29.4  $ bottom grid plate +X
+28   px  -29.4  $ bottom grid plate -X
+29   py   29.4  $ bottom grid plate +Y
+30   py  -29.4  $ bottom grid plate -Y
+c
+31   pz  -38.72
+c
+32   px -28.5   $ steel plate (ref. sur 22)
+c
+33   py  25.4
+34   py -25.4
+c
+35   pz  39.13
+36   pz -32.37
+c
+37   pz -88.72 $ reactor tank botton
+38   pz  93.78 $ reactor tank top
+c
+39   cz 100.00  $ reactor tank radius
+c
+c ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+c ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+c
+c  SOURCE CARDS
+c
+ sdef    pos= 0 0 0     $ center of volume source
+         axs= 0 0 1     $ axis of volume source (cylinder)
+         rad d1         $ radial bins to define by distributions 1
+         ext d2         $ axial bins to define by distributions 2
+         erg d3         $ energy distributions defined by distr. 3
+ si1     h 0 16.5       $ radii of volume source
+ si2     h -27.42 27.42 $ extension of cylinder (+/-) from the center
+ sp3    -3              $ built in function: Watt fission spectrum
+c 
+kcode  200000 1.02 20 1000 4500 0
+c
+c ccccccccccccccccccccccccccccccccccccc
+c  Material Definitions 
+c ccccccccccccccccccccccccccccccccccccc
+c
+c   UO2 pellet 
+c
+m1   92234.50c 7.84560e-06 
+     92235.50c 9.99160e-04 
+     92238.50c 2.16920e-02 
+      8016.50c 4.54677e-02
+      8017.60c 1.72843e-05
+c
+c   AIR - 1.20492E-3 g/cm^3
+c
+ m2   GAS=1
+      7014  7.81524E-01
+      7015  2.87090E-03
+      8016  2.10651E-01
+      8017  8.00776E-05
+      6000  1.60708E-04
+      18000 4.71299E-03
+c
+c   SS304 clad - clad
+c
+m3    6000.50c 1.12390e-04 
+     14000.50c 6.79340e-04 
+     15031.50c 4.00400e-05
+     16000.60c 1.56170e-05 
+     24000.50c 1.68240e-02
+     25055.50c 1.46450e-03 
+     26000.55c 5.90020e-02 
+     27059.50c 1.74020e-04
+     28000.50c 8.16250e-03 
+     42000.50c 8.45200e-05
+c
+c    H2O - water
+c
+m4    1001.50c 6.67360e-02 
+      8016.50c 3.33553e-02 
+      8017.60c 1.26798e-05
+mt4   lwtr.01t
+c
+c   al2o3 - Alumina
+c
+m5    8016.50c 6.70905e-02 
+      8017.60c 2.55041e-05
+     13027.50c 4.47440e-02 
+c
+c    AG-IN-CD Control ROD
+c
+m6     6000.50c 1.50520e-03 
+       8016.50c 1.76963e-03 
+       8017.60c 6.72714e-07
+      16000.60c 1.87910e-04
+      47107.50c 2.31790e-02 
+      47109.50c 2.11460e-02
+      48000.50c 2.58940e-03
+      49000.60c 7.85170e-03 
+c
+c     spacer tube - SS304
+c
+m7     6000.50c 2.40780e-04 
+      14000.50c 1.11550e-03 
+      15031.50c 3.11240e-05
+      24000.50c 1.67790e-02
+      25055.50c 1.15810e-03 
+      26000.55c 6.18920e-02 
+      27059.50c 1.14500e-04
+      28000.50c 6.57020e-03 
+c
+c    stainless steel reflector - baffle 
+c
+m8     6000.50c 1.80900e-04
+      14000.50c 6.96440e-04
+      16000.60c 1.08160E-05
+      22000.50c 2.40980e-06
+      24000.50c 1.75950e-02
+      25055.50c 1.03920e-03 
+      26000.55c 6.00360e-02
+      28000.50c 6.56700e-03
+      29000.50c 1.66790e-05 
+      42000.50c 2.10910e-05 
+c
+c     guide tube - SS304 
+c
+m9     6000.50c 8.89680e-05
+      14000.50c 6.61700e-04 
+      15031.50c 4.50000e-05
+      24000.50c 1.62980e-02
+      25055.50c 1.15010e-03 
+      26000.55c 5.69430e-02 
+      28000.50c 9.10370e-03 
+c
+c      SS304 Bottom Grid Plate
+c
+m10    5010.60c 2.9974e-04 
+       5011.60c 1.2065e-03 
+       6000.60c 3.7656e-04
+       8016.60c 5.7928e-02 
+      11023.60c 8.6686e-06
+      12000.60c 8.1995e-05
+      13027.60c 3.8619e-02
+      24000.50c 3.8327e-06
+      26000.55c 1.0705e-05
+      28000.50c 3.3956e-06 
+      62149.50c 2.6508e-07
+      72000.60c 2.2331e-07
+c
+c    acrylic tube
+c
+m11    1001.60c 5.68840e-02 
+       6000.60c 3.55520e-02
+       8016.60c 1.42210e-02 
+c
+c     bottom grid plate
+c
+m12    6000.50c 7.94260e-05
+      14000.50c 8.66160e-04 
+      15031.50c 5.54400e-05
+      16000.60c 4.46200e-06 
+      24000.50c 1.67050e-02
+      25055.50c 1.25030e-03 
+      26000.55c 6.00360e-02
+      28000.50c 7.66410e-03 
+      42000.50c 2.98310e-05
+c
+c     gd2o3 powder density = 2.0668 g/cm3 
+c
+m13    8016.50c 1.03091e-02
+       8017.60c 3.91894e-06
+      64152.50c 1.37512E-05 
+      64154.50c 1.49888E-04
+      64155.50c 1.01759E-03 
+      64156.50c 1.40743E-03 
+      64157.50c 1.07603E-03
+      64158.50c 1.70790E-03 
+      64160.60c 1.50300E-03 
+c
+c     Thorium pellet 
+m14   90230.70c 1.1358e-02 
+      90232.70c 2.2721e-06
+      92238.70c 1.0793e-02 
+      92235.70c 5.6803e-04
+       8016.70c 4.5333e-02 
+       8017.70c 1.8177e-05  
+c
+c
+prdmp 1j 100 -1
+print
